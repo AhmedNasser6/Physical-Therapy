@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../CSS/bootstrap.css">
+    <link rel="stylesheet" href="../CSS/style_Sheet.css">
+    <style>
+        /*  */
+        /*  */
+        .s1 {
+            background-color: rgb(30, 199, 229);
+            color: #fff;
+            text-align: left;
+            height: 250px;
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .s2 {
+            padding: 50px;
+        }
+
+        .s2 .col-xl-4 {
+            padding: 25px;
+        }
+
+        header ul li .nav-link {
+            color: #000000 !important;
+        }
+
+        .navbar-brand img {
+            margin-top: 0px;
+            width: 100px;
+            height: 100px;
+        }
+
+        button {
+            background-color: rgb(30, 199, 229);
+            border-radius: 12px;
+            color: #FFF;
+            padding: 20px;
+            font-size: 20px;
+            width: 300px;
+            font-weight: bold;
+            border: none;
+
+        }
+
+        button:hover {
+            background-color: black !important;
+            opacity: 0.8 !important;
+            color: white;
+            transition: 0.5s;
+            border-color: transparent;
+        }
+        #asd{
+            font-size: xx-large;
+        }
+
+        #myInput {
+            background-image: url('/css/searchicon.png');
+            background-position: 10px 12px;
+            background-repeat: no-repeat;
+            width: 100%;
+            font-size: 16px;
+            padding: 12px 20px 12px 40px;
+            border: 1px solid #ddd;
+            margin-bottom: 12px;
+        }
+        p{
+            margin-top: 20px;
+            font-size: larger;
+            margin-left: 30px;
+        }
+
+        /* Test */
+    </style>
+</head>
+
+<body>
+    <header style="background-color: #eff1ed; height: 85px;">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="../index.html"><img src="../Images/im2.png" alt="Logo"></a><h1>GodTherapy</h1>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Physiotherapy.html">Physiotherapist</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Patient.html">Patient</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- ------------------------------ Section 1 ------------------------------ -->
+    <!-- ------------------------------ Section 1 ------------------------------ -->
+    <section class="s1">
+        <div class="container">
+
+            <span style="line-height: 250px;">
+                Patient
+            </span>
+        </div>
+
+    </section>
+    <!-- *********************************************** -->
+
+
+    <section class="s2">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-xl-9">
+                    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="What do You Feel ?"
+                        title="Type in a name">
+                </div>
+                <div class="col-xl-3">
+                    <button onclick="myFunction1()" style="text-align: center; padding: 10px;">Search</button>
+                </div>
+
+            </div>
+
+            <p id="asd">You don't feel anything? It's okay, click <a href="exercise.html">here</a> </p>
+
+
+
+        </div>
+
+    </section>
+    <!-- Section 1 -->
+    <section class="s2" id="myDIV1" style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="card" style="width: 22rem; height: 460px; margin: auto;">
+                        <img class="card-img-top" src="../Images/PH/ph_8.jpg" alt="Card image cap" height="300px">
+                        <div class="card-body" style="text-align: center; margin-top: 10%;">
+                            <button type="button" onclick="window.location.href = 'Genu Varum.html';">
+                                Genu Varum
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 2 -->
+    <section class="s2" id="myDIV2" style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="card" style="width: 22rem; height: 460px; margin: auto;">
+                        <img class="card-img-top" src="../Images/PH/ph_1.jpg" alt="Card image cap" height="300px">
+                        <div class="card-body" style="text-align: center; margin-top: 10%;">
+                            <button type="button" onclick="window.location.href = 'FlatFeeT.html';">
+                                Flat Feet
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 3 -->
+    <section class="s2" id="myDIV3" style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="card" style="width: 22rem; height: 460px;">
+                        <img class="card-img-top" src="../Images/PH/ph_3.jpg" alt="Card image cap" height="300px">
+                        <div class="card-body" style="text-align: center; margin-top: 10%;">
+
+                            <button type="button" onclick="window.location.href = 'Kyphosis.html';">
+                                Kyphosis
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col-xl-4">
+                    <div class="card" style="width: 22rem; height: 460px;">
+                        <img class="card-img-top" src="../Images/PH/ph_4.jpg" alt="Card image cap" height="300px">
+                        <div class="card-body" style="text-align: center; margin-top: 10%;">
+
+                            <button type="button" onclick="window.location.href = 'Scoliosis.html';">
+                                Scoliosis
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col-xl-4">
+                    <div class="card" style="width: 22rem; height: 460px;">
+                        <img class="card-img-top" src="../Images/PH/ph_7.jfif" alt="Card image cap" height="300px">
+                        <div class="card-body" style="text-align: center; margin-top: 10%;">
+
+                            <button type="button" onclick="window.location.href = 'Hyperlordosis.html';">
+                                Hyperlordosis
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 4 -->
+    <section class="s2" id="myDIV4" style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="card" style="width: 22rem; height: 460px; margin: auto;">
+                        <img class="card-img-top" src="../Images/PH/ph_2.jpg" alt="Card image cap" height="300px">
+                        <div class="card-body" style="text-align: center; margin-top: 10%;">
+
+                            <button type="button" onclick="window.location.href = 'Rounded shoulder.html';">
+                                Rounded shoulder
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 5 -->
+    <section class="s2" id="myDIV5" style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="card" style="width: 22rem; height: 460px;margin: auto;">
+                        <img class="card-img-top" src="../Images/PH/ph_5.jpg" alt="Card image cap" height="300px">
+                        <div class="card-body" style="text-align: center; margin-top: 10%;">
+
+                            <button type="button" onclick="window.location.href = 'Winging of scapula .html';">
+                                Winging of scapula
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 6 -->
+    <section class="s2" id="myDIV6" style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="card" style="width: 22rem; height: 460px; margin: auto;">
+                        <img class="card-img-top" src="../Images/PH/ph_6.jpg" alt="Card image cap" height="300px">
+                        <div class="card-body" style="text-align: center; margin-top: 10%;">
+
+                            <button type="button" onclick="window.location.href = 'Forward head.html';">
+                                Forward head
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 7 -->
+    <section class="s2" id="myDIV7" style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="card" style="width: 22rem; height: 460px; margin: auto;">
+                        <img class="card-img-top" src="../Images/Picture10.jpg" alt="Card image cap" height="300px">
+                        <div class="card-body" style="text-align: center; margin-top: 10%;">
+
+                            <button type="button" onclick="window.location.href = 'BARREL CHEST.html';">
+                                Barrel Chest
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function myFunction1() {
+
+            input = document.getElementById("myInput");
+
+            var x0 = document.getElementById("myDIV1");
+            var x1 = document.getElementById("myDIV2");
+            // 
+            var x2 = document.getElementById("myDIV3");
+            var x3 = document.getElementById("myDIV4");
+            // 
+            var x4 = document.getElementById("myDIV5");
+            var x5 = document.getElementById("myDIV6");
+            //
+            var x6 = document.getElementById("myDIV7");
+            if (input.value === 'pigeon toes') {
+                x0.style.display = "block";
+                x1.style.display = "none";
+                x2.style.display = "none";
+                x3.style.display = "none";
+                x4.style.display = "none";
+                x5.style.display = "none";
+                x6.style.display = "none";
+
+            }
+            else if (input.value === 'lack of arches') {
+                x1.style.display = "block";
+                x0.style.display = "none";
+                x2.style.display = "none";
+                x3.style.display = "none";
+                x4.style.display = "none";
+                x5.style.display = "none";
+                x6.style.display = "none";
+            }
+            else if (input.value === 'back pain') {
+                x2.style.display = "block";//3
+                x0.style.display = "none";
+                x1.style.display = "none";
+                x3.style.display = "none";
+                x4.style.display = "none";
+                x6.style.display = "none";
+                x5.style.display = "none";
+            }
+            else if (input.value === 'shoulder pain') {
+                x3.style.display = "block";
+                x1.style.display = "none";
+                x2.style.display = "none";
+                x0.style.display = "none";
+                x4.style.display = "none";
+                x5.style.display = "none";
+                x6.style.display = "none";
+            }
+            else if (input.value === 'instability of shoulder') {
+                x4.style.display = "block";
+                x1.style.display = "none";
+                x2.style.display = "none";
+                x3.style.display = "none";
+                x0.style.display = "none";
+                x5.style.display = "none";
+                x6.style.display = "none";
+            }
+            else if (input.value === 'headache') {
+                x5.style.display = "block";
+                x1.style.display = "none";
+                x2.style.display = "none";
+                x3.style.display = "none";
+                x4.style.display = "none";
+                x0.style.display = "none";
+                x6.style.display = "none";
+            }
+            else if (input.value === 'wheezing coughing') {
+                x5.style.display = "none";
+                x1.style.display = "none";
+                x2.style.display = "none";
+                x3.style.display = "none";
+                x4.style.display = "none";
+                x0.style.display = "none";
+                x6.style.display = "block";
+            }
+            else {
+                x0.style.display = "none";
+                x1.style.display = "none";
+                x2.style.display = "none";
+                x3.style.display = "none";
+                x4.style.display = "none";
+                x5.style.display = "none";
+                alert("No Search Fond");
+
+            }
+        }
+    </script>
+
+</body>
+
+</html>

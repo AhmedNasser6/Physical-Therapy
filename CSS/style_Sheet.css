@@ -1,0 +1,82 @@
+img {
+    width: 100%;
+}
+
+/* ul li {
+    list-style-type: none;
+} */
+
+/* ------------------------- Div 1 --------------------------------- */
+.home {
+    background-image: url(../Images/im4.jpg);
+
+    background-size: cover;
+    font-family: 'Source Serif Pro', serif;
+    height: 750px;
+}
+
+header {
+    font-family: 'Source Serif Pro', serif;
+
+}
+
+.container {
+    max-width: 1240px;
+}
+
+.bg-light {
+    height: 86px;
+    background-color: transparent !important;
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+header ul li .nav-link {
+    padding: 0px 13px !important;
+    color: rgb(52, 49, 49) !important;
+    font-size: 20px;
+}
+
+.work {
+    color: white;
+    margin-top: 35%;
+    text-align: center;
+    width: 500px;
+
+}
+
+.work h1 {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.work button {
+    font-size: 30px;
+    padding: 15px 25px;
+    background-color: rgb(30, 199, 229);
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-left: 15%;
+    width: 300px;
+}
+
+header .btn-primary-1:hover {
+    background-color: white !important;
+    opacity: 0.8 !important;
+    color: black;
+    border-color: transparent;
+}
+
+header .btn-primary-2:hover {
+    background-color: white !important;
+    opacity: 0.8 !important;
+    color: black;
+    border-color: transparent;
+}
